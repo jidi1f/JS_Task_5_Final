@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"  >
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+	
+	<link href="https://fonts.googleapis.com/css?family=Libre+Franklin" rel="stylesheet">
+</head>
+
+<body>
+	<header>
+		<div class = "sort">
+				<img src="img/sort_up.png" width="32" id = "sortUp">
+				<img src="img/sort_down.png" width="32" id = "sortDown">
+		</div>
+		<div class="menu">
+				<img src='img/list.png' alt='icon' id='Mlist'>
+				<img src='img/nolist.png' alt='icon' id='Mnolist'>
+		</div>
+		<div class = "add_product">Add Product</div>
+		<a href="backet.html" class="menu-link">
+		<div class = "shop_cart">
+		<div class = "shop_count"></div>
+		<img src="img/shop.png" width="50">
+		</div>
+		</a>
+	</header>
+	<div class = "outher_container">
+	 
+		<div class = "container">
+
+		</div>
+		<ul id = "pagination">
+
+		</ul>
+	</div>
+	<div class = "popup not_active_display">
+		<input type="text" class="num" placeholder="название">
+		<input type="text" class="num" placeholder="описание">
+		<input type="text" class="num" placeholder="цена">
+		<input type="text" class="num" placeholder="путь к картинке №1">
+		<input type="text" class="num" placeholder="путь к картинке №2">
+		<input type="text" class="num" placeholder="путь к картинке №3">
+		<select name="s1">
+			<option value="1">available</option>
+			<option value="2">not available</option>
+		</select>
+		<select name="s2">
+			<option value="1">available</option>
+			<option value="2">not available</option>
+		</select>
+		<select name="s3">
+			<option value="1">available</option>
+			<option value="2">not available</option>
+		</select>
+		<button class="btn2">Ok</button>
+	</div>
+	<div class="layer not_active_display"></div>
+	<script type="text/javascript" src="script.js" ></script>
+</body>
+
+</html>
